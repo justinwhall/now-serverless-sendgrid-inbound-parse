@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "sendgrid-now-lambda",
+  "alias": "sendgrid.justinwhall.com",
+  "builds": [
+    { "src": "parse-sendgrid.js", "use": "@now/node" },
+    { "src": "index.html", "use": "@now/static" }
+  ]
+}

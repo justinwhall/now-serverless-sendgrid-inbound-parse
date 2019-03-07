@@ -1,0 +1,17 @@
+{
+  "name": "sendgrid-now-lambda",
+  "version": "0.9.0",
+  "description": "Trigger a Now serverless function with SendGrid Inbound Parse & send a SMS with Twilio",
+  "main": "index.html",
+  "author": "Justin W Hall",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "deploy": "now && now alias && now remove sendgrid-now-lambda --safe"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "twilio": "^3.29.1"
+  }
+}
