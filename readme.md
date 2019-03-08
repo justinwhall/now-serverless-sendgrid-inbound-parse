@@ -3,7 +3,7 @@
 1. [Setup Sender Authentication](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) with Twilio SendGrid.
 2. [Setup Inbound Parse](https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/)
     * Add MX record to DNS – `parse.yourdomain.com` --> `mx.sendgrid.net`
-    * Add webhook to SendGrid inbound parse UI per doc above. host in this case == `parse.yourdomain`. Webhook url would be something like `https://yourdomain.com/parse-sendgrid.js`
+    * Add webhook to SendGrid inbound parse UI per doc above. host in this case == `parse.yourdomain.com`. Webhook url would be something like `https://yourdomain.com/parse-sendgrid.js`
 3. Buy a number on the [Twilio phone numbers page](https://www.twilio.com/console/phone-numbers/search)
 4. Clone this repo
 5. Rename `example.config.js` to `config.js`
