@@ -1,4 +1,4 @@
-# Trigger a Now Serverless Lambda with SendGrid Inbound Parse & send a SMS with Twilio
+# Trigger a Now Serverless Lambda with SendGrid Inbound Parse then send a SMS with Twilio
 
 1. [Setup Sender Authentication](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) with Twilio SendGrid.
 2. [Setup Inbound Parse](https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/)
